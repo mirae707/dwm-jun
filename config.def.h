@@ -7,11 +7,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "DejaVuSansMono Nerd Font:style=Book:size=11" };
 static const char dmenufont[]       = "DejaVuSansMono Nerd Font:style=Book:size=11";
-static const char col_gray1[]       = "#282c34";
-static const char col_gray2[]       = "#282c34";
-static const char col_gray3[]       = "#d7d7d7";
-static const char col_gray4[]       = "#924441";
-static const char col_cyan[]        = "#c9af1a";
+static const char col_gray1[]       = "#292d3e";
+static const char col_gray2[]       = "#292d3e";
+static const char col_gray3[]       = "#96b5b4";
+static const char col_gray4[]       = "#d7d7d7";
+static const char col_cyan[]        = "#83628e";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
